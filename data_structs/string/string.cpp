@@ -19,5 +19,6 @@ string::string(const char* my_text)
 
 string::clear() 
 {
-  this->string();
+  this->length = 0;
+  this->buffer = "";
 }
