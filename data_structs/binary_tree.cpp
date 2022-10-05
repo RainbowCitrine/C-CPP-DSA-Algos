@@ -1,5 +1,5 @@
 /**
- * @author Joe Smith
+ * @author Armend Veseli
  */
 
 #include "binary_tree.h"
