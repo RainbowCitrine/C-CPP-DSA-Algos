@@ -8,4 +8,5 @@ struct string {
     char* buffer;
     length();
     string();
+    string(const char* my_text);
 };
