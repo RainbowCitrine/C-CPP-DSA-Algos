@@ -6,5 +6,7 @@
 struct string {
     unsigned int length;
     char* buffer;
+    length();
     string();
+    string(const char* my_text);
 };
