@@ -16,3 +16,8 @@ string::string(const char* my_text)
   this->buffer = my_text;
   this->length = this->length();
 }
+
+string::clear() 
+{
+  this->string();
+}
