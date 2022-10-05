@@ -1,3 +1,9 @@
+/*
+    Author: Noah Rainbow
+    Date Published: 10/4/2022
+    Title: Basic Bubble Sort In C++
+*/
+
 #include <iostream>
 
 void BubbleSort(int arr[], const int SIZE)
