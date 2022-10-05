@@ -9,4 +9,5 @@ struct string {
     length();
     string();
     string(const char* my_text);
+    clear();
 };
