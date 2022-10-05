@@ -1,3 +1,9 @@
+/*
+    Author: Noah Rainbow
+    Date: 10/4/2022
+    Title: Bubble Sort Pointer Manipulation in C
+*/
+
 #include <iostream>
 
 void swap(int *a, int *b)
