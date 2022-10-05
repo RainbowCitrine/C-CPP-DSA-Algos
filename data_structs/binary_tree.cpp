@@ -1,3 +1,5 @@
+///@Author: Armend Veseli.
+
 #include "binary_tree.h"
 
 //A binary tree with chars.
