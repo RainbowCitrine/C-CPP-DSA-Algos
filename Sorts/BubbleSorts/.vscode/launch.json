@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/Users/noahgoss/C-CPP-DSA-Algos/Sorts/BubbleSorts",
+      "program": "/Users/noahgoss/C-CPP-DSA-Algos/Sorts/BubbleSorts/build/Debug/outDebug",
+      "MIMode": "gdb"
+    }
+  ]
+}
