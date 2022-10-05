@@ -5,6 +5,11 @@ string::length()
   return sizeof(this->buffer) / sizeof(char);
 }
 
+string::size()
+{
+  return sizeof(this->buffer);
+}
+
 string::string() 
 {
   this->length = 0;
