@@ -1,4 +1,6 @@
-//@Authors: Armend Veseli.
+/**
+ * @author Armend Veseli
+ */
 
 //We also can use the term "node" for our binary tree, instead.
 template <typename T>
