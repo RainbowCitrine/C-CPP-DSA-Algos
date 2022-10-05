@@ -1,4 +1,6 @@
-//@author: Armend Veseli.
+/**
+ * @author Joe Smith
+ */
 
 #include "binary_tree.h"
 
