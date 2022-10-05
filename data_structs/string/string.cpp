@@ -1,15 +1,18 @@
 #include "string.h"
 
-string::length() {
+string::length() 
+{
   return sizeof(this->buffer) / sizeof(char);
 }
 
-string::string() {
+string::string() 
+{
   this->length = 0;
   this->buffer = "";
 }
 
-string::string(const char* my_text) {
+string::string(const char* my_text) 
+{
   this->buffer = my_text;
   this->length = this->length();
 }
