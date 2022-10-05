@@ -6,7 +6,9 @@
 struct string {
     unsigned int length;
     char* buffer;
+    
     length();
+    size();
     string();
     string(const char* my_text);
     clear();
