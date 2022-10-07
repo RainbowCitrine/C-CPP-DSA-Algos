@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include "string.h"
 
 string::length() 
@@ -26,4 +27,10 @@ string::clear()
 {
   this->length = 0;
   this->buffer = "";
+}
+
+string::resize(const size_t new_size)
+{
+  this->length = new_size;
+  this->buffer = (char*) realloc(sizeof(char) * new_size);
 }
