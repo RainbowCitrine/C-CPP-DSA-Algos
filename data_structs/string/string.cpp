@@ -36,3 +36,7 @@ string::resize(const size_t new_size)
   this->length = new_size;
   this->buffer = (char*) realloc(sizeof(char) * new_size);
 }
+
+bool string::has_substr(string& s)
+{
+}
