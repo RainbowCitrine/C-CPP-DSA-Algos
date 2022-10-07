@@ -1,3 +1,5 @@
+//Author: Armend Veseli
+
 #include <cstdlib>
 #include "string.h"
 
