@@ -7,9 +7,11 @@ struct string {
     unsigned int length;
     char* buffer;
     
+    clear();
     length();
     size();
     string();
     string(const char* my_text);
-    clear();
+    resize(const size_t new_size);
+    
 };
