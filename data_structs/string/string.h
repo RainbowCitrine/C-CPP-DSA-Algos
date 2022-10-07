@@ -13,5 +13,4 @@ struct string {
     string();
     string(const char* my_text);
     resize(const size_t new_size);
-    
 };
